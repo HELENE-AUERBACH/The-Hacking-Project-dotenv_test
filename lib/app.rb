@@ -26,6 +26,9 @@ client = login_twitter
 # ligne qui permet de tweeter sur ton compte
 #client.update('Mon premier tweet en Ruby !!!!')
 
-# ligne qui permet de tweeter à partir de mon compte un message direct sur le compte de Fatou
+# ligne qui permet de tweeter à partir de mon compte un message direct sur le compte du user Twitter dont le Long Id est égal à 0
 #client.create_direct_message(0000000000000000000, "Tentative de message personnel!")
 #client.create_direct_message(0000000000000000001, "Tentative de message encore plus personnel!")
+
+# ligne qui permet de tweeter à partir de mon compte un message dans l'onglet Notifications du user Twitter de user_name "Toto"
+#client.update("Et maintenant, je te \"notifie\" toi, @Toto, ma seule amie \"twitterienne\"!")
