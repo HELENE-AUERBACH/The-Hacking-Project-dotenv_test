@@ -32,3 +32,4 @@ client = login_twitter
 
 # ligne qui permet de tweeter à partir de mon compte un message dans l'onglet Notifications du user Twitter de user_name "Toto"
 #client.update("Et maintenant, je te \"notifie\" toi, @Toto, ma seule amie \"twitterienne\"!")
+#client.update("Et maintenant, je te \"re-notifie\" toi, @Toto, avec un hashtag #TotoTataTitiTutu !")
